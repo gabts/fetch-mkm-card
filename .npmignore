@@ -1,0 +1,4 @@
+.prettierrc
+src
+test.js
+tsconfig.json

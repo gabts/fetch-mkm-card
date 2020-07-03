@@ -1,0 +1,33 @@
+{
+  "name": "fetch-mkm-card",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "author": "Gabriel Toll Stålbom <gabtost@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabts/fetch-mkm-card.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gabts/fetch-mkm-card/issues"
+  },
+  "keywords": [
+    "magic the gathering",
+    "mtg",
+    "cardmarket",
+    "mkm"
+  ],
+  "scripts": {
+    "prepublishOnly": "rimraf ./dist && tsc",
+    "test": "node test.js"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.7",
+    "prettier": "^2.0.5",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
