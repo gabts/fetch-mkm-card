@@ -1,5 +1,6 @@
 {
   "name": "fetch-mkm-card",
+  "description": "A node client for fetching Magic: The Gathering card information with the MKM API",
   "version": "1.0.0",
   "main": "dist/index.js",
   "license": "MIT",
